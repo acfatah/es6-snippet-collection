@@ -9,7 +9,7 @@ orbs:
 jobs:
   test_with_coverage:
     environment:
-      CC_TEST_REPORTER_ID: CODE_CLIMATE_TEST_REPORTER_ID
+      CC_TEST_REPORTER_ID: 254cd264de984b28427dbaba3e771dc23f48cfe7e4d92122b218d772eb4bfefa
     docker:
       - image: cimg/node:18.12.0
     steps:
