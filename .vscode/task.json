@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "prettier-standard",
+      "type": "shell",
+      "command": "npx",
+      "args": [
+        "prettier-standard",
+        "\"${file}\""
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": [],
+      "detail": "Runs prettier-standard command on the active file"
+    }
+  ]
+}

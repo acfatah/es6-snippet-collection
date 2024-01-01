@@ -1,0 +1,30 @@
+{
+  "name": "@acfatah/es6-snippet-collection",
+  "version": "0.0.1",
+  "description": "A collection of ES6 or Javascript code snippets.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vitest",
+    "test": "npm run lint && vitest run",
+    "lint": "standard src",
+    "coverage": "npm run lint && vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acfatah/es6-snippet-collection.git"
+  },
+  "keywords": [],
+  "author": "Achmad F. Ibrahim <acfatah@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acfatah/es6-snippet-collection/issues"
+  },
+  "homepage": "https://github.com/acfatah/es6-snippet-collection#readme",
+  "devDependencies": {
+    "@vitest/coverage-istanbul": "^1.1.1",
+    "nyc": "^15.1.0",
+    "standard": "^17.1.0",
+    "vitest": "^1.1.0"
+  }
+}
