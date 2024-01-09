@@ -1,5 +1,5 @@
 {
-  "name": "@acfatah/es6-snippet-collection",
+  "name": "@acfatah/es6-snippets",
   "version": "0.0.1",
   "description": "A collection of ES6 or Javascript code snippets.",
   "main": "src/index.js",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acfatah/es6-snippet-collection.git"
+    "url": "git+https://github.com/acfatah/es6-snippets.git"
   },
   "keywords": [],
   "author": "Achmad F. Ibrahim <acfatah@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/acfatah/es6-snippet-collection/issues"
+    "url": "https://github.com/acfatah/es6-snippets/issues"
   },
-  "homepage": "https://github.com/acfatah/es6-snippet-collection#readme",
+  "homepage": "https://github.com/acfatah/es6-snippets#readme",
   "devDependencies": {
     "@vitest/coverage-istanbul": "^1.1.1",
     "nyc": "^15.1.0",
